@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll"
+    android:background="@color/primary_color"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="@layout/activity_avatar_toolbar_sample"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rlbackground"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+            >
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="Name"
+                android:textCursorDrawable="@drawable/cursor_color"
+                style="@style/EditTextCustomHolo"
+                android:focusable="false"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rlbackground"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+
+            >
+
+            <EditText
+                android:id="@+id/schoolname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="SchoolName"
+
+                android:textCursorDrawable="@drawable/cursor_color"
+                style="@style/EditTextCustomHolo"
+                android:focusable="false"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rlbackground"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+
+            >
+
+            <EditText
+                android:id="@+id/standard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="Standard"
+
+                android:textCursorDrawable="@drawable/cursor_color"
+                style="@style/EditTextCustomHolo"
+                android:focusable="false"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rlbackground"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+
+            >
+
+            <EditText
+                android:id="@+id/mobileno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="MobileNo"
+                android:textCursorDrawable="@drawable/cursor_color"
+                style="@style/EditTextCustomHolo"
+                android:focusable="false"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rlbackground"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+
+            >
+
+            <EditText
+                android:id="@+id/subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="Subject"
+                android:textCursorDrawable="@drawable/cursor_color"
+                style="@style/EditTextCustomHolo"
+                android:focusable="false"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rlbackground"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+
+            >
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="email"
+
+                android:textCursorDrawable="@drawable/cursor_color"
+                style="@style/EditTextCustomHolo"
+                android:focusable="false"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rlbackground"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+
+            >
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="Password"
+
+                android:textCursorDrawable="@drawable/cursor_color"
+                style="@style/EditTextCustomHolo"
+                android:focusable="false"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="280dp"
+        android:layout_height="?android:actionBarSize"
+        android:text="Save"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textSize="25dp"
+        android:background="@drawable/button_shape"
+        android:textColor="#FFFFFF"
+        android:shadowDy="@integer/design_snackbar_text_max_lines"
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="25dp" />
+</LinearLayout>

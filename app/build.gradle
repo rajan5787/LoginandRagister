@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+   // buildToolsVersion "1.5.0"
+   buildToolsVersion "22.0.0"
+    defaultConfig {
+        applicationId "com.example.rajanpipaliya.loginandragister"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+   // compile 'com.android.support:appcompat-v7:23.0.1'
+    //compile 'com.android.support:design:23.0.1'
+  //  compile 'com.minoon:disco:0.1.1'
+    compile 'com.jakewharton:butterknife:6.1.0'
+    compile 'com.sloydev:collapsingavatartoolbar:1.1.0'
+
+    // Requires you to provide these dependencies yourself
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.android.support:design:23.0.0'
+    compile 'com.alexzh:circleimageview:1.1.0@aar'
+}
